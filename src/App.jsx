@@ -44,7 +44,14 @@ function App() {
                 amount={amount}
                 currencyOptions={options}
                 onCurrencyChange={(currency) => setFrom(amount)}
-                onAmountChange={(amount) => setAmount(amount)}
+                onAmountChange={(val) => {
+                  setAmount(val); // This updates the "From" box
+
+                  // If the value is 0 or empty, clear the "To" box
+                  if (val === 0 || val === "") {
+                    setConvertedAmount(""); // Or setConvertedAmount("")
+                  }
+                }}
                 selectCurrency={from}
               />
             </div>
