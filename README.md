@@ -5,6 +5,8 @@
 A fast and responsive currency conversion application built with React. It fetches real-time exchange rates from an API and allows users to convert amounts between different currencies seamlessly.
 
 ## 📸 Project Screenshot
+<img width="1440" height="900" alt="Screenshot 2025-11-30 at 5 29 53 PM" src="https://github.com/user-attachments/assets/06880029-ee49-4e83-a38f-1963f216f10f" />
+
 
 ## ✨ Features
 
